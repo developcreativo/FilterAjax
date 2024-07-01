@@ -1,0 +1,31 @@
+{
+    "name": "developcreativo/filter-ajax",
+    "description": "Dependent filters for Laravel Nova",
+    "authors": [
+        {
+            "name": "Kelly Salazar",
+            "email": "developmentcreativo@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "nova",
+        "filter"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Developcreativo\\FilterAjax\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Developcreativo\\FilterAjax\\DependentFilterServiceProvider"
+            ]
+        }
+    }
+}
